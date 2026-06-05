@@ -2,7 +2,7 @@
 ***************************************************************
 *                 Welcome to use GPUMD                        *
 *     (Graphics Processing Units Molecular Dynamics)          *
-*                     version 5.3                             *
+*                     version 5.4                             *
 *              This is the gpumd executable                   *
 ***************************************************************
 
@@ -19,9 +19,9 @@ GPU information:
 
 number of GPUs = 1
 Device id:                   0
-    Device name:             NVIDIA A100-SXM4-80GB
+    Device name:             NVIDIA A100-SXM4-40GB
     Compute capability:      8.0
-    Amount of global memory: 79.2507 GB
+    Amount of global memory: 39.4945 GB
     Number of SMs:           108
 
 ---------------------------------------------------------------
@@ -85,6 +85,7 @@ Use the NEP4 potential with 5 atom types.
     has_q_112 = 0.
     has_q_123 = 0.
     has_q_233 = 0.
+    has_q_134 = 0.
     ANN = 30-30-1.
     number of neural network parameters = 4801.
     number of descriptor parameters = 2250.
@@ -115,8 +116,8 @@ Run 1000000 steps.
     1000000 steps completed.
 
 ---------------------------------------------------------------
-Time used for this run = 4953.8 second.
-Speed of this run = 1.93791e+07 atom*step/second.
+Time used for this run = 4982.09 second.
+Speed of this run = 1.9269e+07 atom*step/second.
 ---------------------------------------------------------------
 
 Use NVT ensemble for this run.
@@ -141,8 +142,8 @@ Run 1000000 steps.
     1000000 steps completed.
 
 ---------------------------------------------------------------
-Time used for this run = 5020.77 second.
-Speed of this run = 1.91206e+07 atom*step/second.
+Time used for this run = 5048.64 second.
+Speed of this run = 1.9015e+07 atom*step/second.
 ---------------------------------------------------------------
 
 Use NVE ensemble for this run.
@@ -159,8 +160,35 @@ Run 4000000 steps.
     1200000 steps completed.
     1600000 steps completed.
     2000000 steps completed.
-CUDA Error:
-    File:       force/neighbor.cu
-    Line:       748
-    Error code: 700
-    Error text: an illegal memory access was encountered
+    2400000 steps completed.
+    2800000 steps completed.
+    3200000 steps completed.
+    3600000 steps completed.
+    4000000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 20001.5 second.
+Speed of this run = 1.91985e+07 atom*step/second.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Start to calculate HAC and related quantities.
+HAC and related quantities are calculated.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished executing the commands in run.in.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used = 30106.338235 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished running GPUMD.
+---------------------------------------------------------------
+
